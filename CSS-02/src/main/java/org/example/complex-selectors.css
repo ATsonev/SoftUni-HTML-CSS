@@ -1,0 +1,35 @@
+nav > a{
+    color: olivedrab;
+}
+
+section + header {
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+section.special ~ article {
+    background-color: lightcoral;
+    margin-top: 10px;
+}
+
+.login input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+p:first-child {
+    color: green;
+}
+
+p:last-child {
+    color: red;
+}
+
+p:nth-of-type(even) {
+    background-color: lightgrey;
+}
+
+h1::before{
+    content: "★ ";
+    color: silver;
+}

@@ -1,0 +1,14 @@
+div > p{
+    color: red;
+}
+
+ul > li{
+    list-style-type: upper-latin;
+}
+p + p {
+    background-color: lightblue;
+}
+
+p ~ span{
+    font-weight: bold;
+}

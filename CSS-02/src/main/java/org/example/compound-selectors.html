@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="compound-selectors.css">
+    <title>Title</title>
+</head>
+<body>
+<p>This is basic paragraph</p>
+<p class="special">This is special paragraph</p>
+<p class="special">This is special paragraph as well</p>
+
+<div>
+    <p id="special-div">This is special element</p>
+    <span>This is just span</span>
+</div>
+
+<p class="highlight">This is highlighted paragraph</p>
+<p class="highlight2">This is highlighted2 paragraph as well</p>
+
+<label>
+    <input type="text" class="highlight" placeholder="This input is styled with a blue border and padding.">
+</label>
+<label>
+    <input type="text" placeholder="This input is not styled by the rule.">
+</label>
+
+<div id="content">
+    <p data-type="important" class="highlight">This paragraph has the highest specificity styling.</p>
+</div>
+<p data-type="important" class="highlight">This paragraph has the second highest specificity styling.</p>
+<p class="highlight">This paragraph has the third highest specificity styling.</p>
+<p>This paragraph has the least specific styling.</p>
+
+</body>
+</html>

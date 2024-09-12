@@ -1,0 +1,42 @@
+p.special {
+    color: lightblue;
+    font-size: 20px;
+}
+
+div #special-div{
+    background-color: coral;
+}
+
+input[type="text"].highlight {
+    border-color: blue;
+    padding: 10px;
+}
+
+.highlight, .highlight2{
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    margin: 10px;
+}
+
+p.highlight {
+    color: green;
+    font-size: 16px;
+    margin: 15px;
+}
+
+p[data-type="important"].highlight {
+    color: blue;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#content p[data-type="important"].highlight {
+    color: red;
+    font-size: 20px;
+    margin: 25px;
+}
