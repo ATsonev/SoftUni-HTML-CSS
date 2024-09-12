@@ -1,0 +1,21 @@
+section p {
+    color: darkblue; /* Different color for <p> within <section> */
+    font-size: 16px; /* Different font size for <p> within <section> */
+}
+
+ul.special > li {
+    color: green; /* Different color for <li> under <ul.special> */
+    font-weight: bold; /* Different font weight for <li> under <ul.special> */
+}
+
+article + article{
+    background-color: coral;
+}
+
+h2 ~ p{
+    background-color: blue;
+}
+
+li + li a.highlight{
+    color: red;
+}
