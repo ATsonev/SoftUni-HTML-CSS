@@ -1,0 +1,12 @@
+article header p{
+    color: #939393;
+}
+
+article header time{
+    font-style: italic;
+}
+
+article header span{
+    color: black;
+    font-weight: bold;
+}
