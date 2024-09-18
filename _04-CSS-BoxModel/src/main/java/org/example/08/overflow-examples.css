@@ -1,0 +1,23 @@
+div{
+    width: 300px;
+    border: 2px solid black;
+    height: 100px;
+}
+
+div h2{
+    padding-top: 200px;
+}
+
+.overflow-visible{
+    overflow: visible;
+
+}
+
+.overflow-hidden{
+    overflow: hidden;
+    height: 150px;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}

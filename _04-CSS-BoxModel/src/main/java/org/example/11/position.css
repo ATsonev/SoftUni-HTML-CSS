@@ -1,0 +1,32 @@
+section{
+    border: 2px solid #000000;
+    padding: 2em;
+    position: relative;
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -0.5em;
+}
+
+div{
+    border: 1px solid #333;
+    padding: 0.5em;
+    width: 7em;
+    height: 5em;
+}
+
+.relative-item{
+    position: relative;
+    background-color: lightgreen;
+    left: 6em;
+    top: 2em;
+}
+
+.relative-absolute-item{
+    position: absolute;
+    background-color: lightgreen;
+    left: 4em;
+    bottom: 5em;
+}

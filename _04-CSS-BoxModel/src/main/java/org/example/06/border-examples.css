@@ -1,0 +1,23 @@
+div{
+    margin: 20px;
+}
+
+.solid-border{
+    border: solid 4px black;
+}
+
+.dashed-border{
+    border: dashed 3px black;
+}
+
+.dotted-border{
+    border: dotted 2px black;
+}
+
+.mixed-border{
+    border-top: 3px dashed #333;
+    border-bottom: 3px dashed #333;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
