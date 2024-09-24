@@ -1,0 +1,29 @@
+body{
+    font-family: Calibri, sans-serif;
+}
+
+details{
+    border: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+summary{
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+details:last-of-type{
+    border-bottom: 2px solid #ccc;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+}
+
+div{
+    margin: 0 auto;
+    max-width: 60%;
+}
