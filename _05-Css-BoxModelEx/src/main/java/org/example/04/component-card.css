@@ -1,0 +1,35 @@
+body{
+    background-color: #ccc;
+}
+
+
+.card{
+    position: relative;
+    box-sizing: border-box;
+    top: 20px;
+    left: 40%;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text-content{
+    padding: 0 20px 5px 20px;
+}
+
+.text-content h2{
+    font-size: 20px;
+}

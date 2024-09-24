@@ -1,0 +1,30 @@
+div{
+    box-sizing: border-box;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.margin-box{
+    background-color: orange;;
+}
+
+.border-box{
+    background-color: bisque;
+}
+
+.padding-box{
+    background-color: lightgreen;
+}
+
+.content-box{
+    height: 60px;
+    background-color: lightskyblue;
+}
+
+.margin-box p, .border-box p, .padding-box p{
+    position: relative;
+    margin: 0;
+    font-weight:bold;
+    left: 20px;
+}
+

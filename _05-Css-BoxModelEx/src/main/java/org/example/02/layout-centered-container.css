@@ -1,0 +1,16 @@
+.layout{
+    border:3px solid green;
+    padding: 20px 180px ;
+}
+
+.inside-content{
+    border: 2px blue solid;
+    /*padding: 20px 30px;*/
+}
+
+.header, .main, .footer{
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    border: 2px solid black;
+}

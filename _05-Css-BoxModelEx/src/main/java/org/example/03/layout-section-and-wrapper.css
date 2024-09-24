@@ -1,0 +1,18 @@
+.layout{
+    border:3px solid green;
+    padding: 10px;
+}
+
+.inside-content{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 0 70px;
+}
+
+.header, .main, .footer{
+    font-weight: bold;
+    margin: 25px;
+    text-align: left;
+    padding-left: 20px;
+    border: 2px blue solid;
+}
