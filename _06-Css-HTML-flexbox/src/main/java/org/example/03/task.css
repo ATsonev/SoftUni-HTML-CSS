@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #FFF;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+}
+
+.calendar {
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: flex;
+}
+.calendar section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.week{
+    flex-grow: 7;
+    border-right: 1px solid grey;
+}
+
+.note {
+    flex-grow: 3;
+}
+
+.week > div, .note > div {
+    border: #cccccc 1px solid;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.week > div:nth-child(1),
+.week > div:nth-child(7){
+    flex: 1 1 100%;
+}

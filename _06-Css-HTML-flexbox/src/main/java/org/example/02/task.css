@@ -1,0 +1,48 @@
+body{
+    background-color: #cccccc;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #FFF;
+    padding: 30px 60px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container > *{
+    border: #cccccc solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.container header, .container footer{
+    flex: 1 1 100%;
+    flex-grow: 1;
+}
+
+.container main{
+    flex-grow: 7;
+}
+
+.container aside{
+    flex-grow: 3;
+}
+
+.container.two > header {
+    order: 1;
+}
+.container.two > footer {
+    order: 4;
+}
+.container.two > main {
+    order: 3;
+}
+.container.two > aside {
+    order: 2;
+}
