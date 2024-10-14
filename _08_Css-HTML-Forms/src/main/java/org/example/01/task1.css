@@ -1,0 +1,54 @@
+body{
+    background-color: silver;
+}
+
+.loginForm{
+    background: #FFF;
+    max-width: 400px;
+    align-content: center;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field > input{
+    border-radius: 2px;
+    border: 2px solid #CCC;
+    height: 25px;
+}
+
+.field > label::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}
+
+.loginForm input[type="submit"] {
+    background-color: darkorange;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    padding: 8px;
+    border: 0;
+}
